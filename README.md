@@ -15,6 +15,7 @@ Current v3.0 Focus:
 
 Note: v3.0 introduces breaking changes to the src/ structure. Legacy v2.x models are currently being ported to the new response_env.py (Gymnasium) standard.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Advanced SIEM Orchestration and Autonomous Threat Response
 

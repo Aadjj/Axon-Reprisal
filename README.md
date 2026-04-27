@@ -1,5 +1,7 @@
 AXON REPRISAL: SOVEREIGN DEFENSE GRID
+
 Advanced SIEM Orchestration and Autonomous Threat Response
+
 AXON REPRISAL is a high performance, asynchronous cybersecurity pipeline designed to bridge the gap between traditional SIEM event ingestion and 
 autonomous incident response. Inspired by the concept of a Sovereign Defender, this system operates on the principle that modern threats move 
 faster than human analysts.
@@ -19,8 +21,11 @@ deny lateral progression.
 
 Key Features
 Deep Search: CNN LSTM hybrid architecture for high fidelity temporal anomaly detection, identifying "low and slow" exfiltration patterns.
+
 Lateral Detection: Graph Neural Network (GNN) based mapping of network relationships to identify unauthorized pivot attempts in real time.
+
 Sovereign Response: Battle hardened PPO (Proximal Policy Optimization) agent trained via Adversarial Reinforcement Learning for autonomous mitigation.
+
 XAI Integration: Millisecond speed "Reason Codes" generated via LIME to provide human analysts with instant context for every flagged anomaly.
 
 

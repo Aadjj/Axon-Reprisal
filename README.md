@@ -1,5 +1,21 @@
 AXON REPRISAL: SOVEREIGN DEFENSE GRID
 
+🧪 Development Status: v3.0-Alpha
+AXON REPRISAL has transitioned to the v3.0 Architecture, moving away from static detection toward a fully autonomous, asynchronous pipeline.
+While the framework is significantly more robust, it remains under active development as we stabilize the integration between the Temporal Engine
+and the Sovereign Response layers.
+
+Current v3.0 Focus:
+
+🟢 Operational Asynchronous SIEM Ingestion & Preprocessing.
+
+🟡 Integration Mapping GNN lateral detection outputs to the PPO Agent’s observation space.
+
+🔴 Optimization Reducing inference latency for the CNN-LSTM "Deep Search" module.
+
+Note: v3.0 introduces breaking changes to the src/ structure. Legacy v2.x models are currently being ported to the new response_env.py (Gymnasium) standard.
+
+
 Advanced SIEM Orchestration and Autonomous Threat Response
 
 AXON REPRISAL is a high performance, asynchronous cybersecurity pipeline designed to bridge the gap between traditional SIEM event ingestion and 
@@ -55,8 +71,6 @@ AXON REPRISAL/
 
 │   ├── preprocessing.py
 
-│   ├── preprocessing.py
-
 │   ├── train_adversarial.py
 
 │   ├── [REDACTED]  
@@ -87,7 +101,7 @@ AXON REPRISAL/
 
 ├── main.py                
 
-├── train_adversarial.py   
+├── train_rl.py   
 
 ├── ui_dashboard.py        
 

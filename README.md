@@ -26,39 +26,73 @@ XAI Integration: Millisecond speed "Reason Codes" generated via LIME to provide 
 
 Architectural Breakdown
 AXON REPRISAL/
+
 ├── src/                  
+
 │   ├── __init__.py
+
 │   ├── classification.py
+
 │   ├── detection.py
+
 │   ├── detection_deep.py   
+
 │   ├── drift_monitor.py
+
 │   ├── explainability.py
+
 │   ├── graph_engine.py
+
 │   ├── intel_bridge.py  
+
 │   ├── preprocessing.py
+
 │   ├── preprocessing.py
+
 │   ├── train_adversarial.py
+
 │   ├── [REDACTED]  
+
 │   ├── [REDACTED]  
+
 │   ├── [REDACTED]  
+
 │   ├── [REDACTED]  
+
 │   └── [REDACTED]         
+
 ├── data/
+
 │   ├── raw/  
+
 │   ├── [REDACTED]  
+
 │   └── processed/          
+
 ├── models/
+
 │   ├── sovereign_ppo.zip  
+
 │   ├── [REDACTED]  
+
 │   └── [REDACTED]          
+
 ├── main.py                
+
 ├── train_adversarial.py   
+
 ├── ui_dashboard.py        
+
 ├── generate_mock_data.py   
+
 ├── requirements.txt   
+
 │   ├── [REDACTED]  
+
 │   ├── [REDACTED]  
+
 │   ├── [REDACTED]  
+
 └── Makefile               
 
 
